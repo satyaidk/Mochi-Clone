@@ -37,6 +37,4 @@ Because frames are deltas, an animation must always be played from frame 0 with
 a cleared buffer. `startAnim()` does that. If you add your own animation, encode
 it the same way or the chain will not reconstruct.
 
-## Credit
-Frames converted from GIFs in github.com/huykhoong/esp32_dasai_mochi_clone_and_how_to,
-which were captured from a Dasai Mochi product video. Personal use only.
+
