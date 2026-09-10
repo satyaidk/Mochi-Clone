@@ -9,13 +9,14 @@
 4. Board: ESP32C3 Dev Module, USB CDC On Boot = Enabled, Partition = Default 4MB with spiffs.
 
 ## Wiring
-| Signal | GPIO |
-|---|---|
-| OLED SDA | 20 |
-| OLED SCL | 21 |
-| TTP223 out | 3 |
-| Buzzer | 4 |
-
+_______________________
+| Signal     | GPIO   |
+|------------|--------|
+| OLED SDA   | GPIO20 |
+| OLED SCL   | GPIO21 |
+| TTP223 out | GPIO1  |
+| Buzzer     | GPIO2  |
+_______________________
 ## Controls
 - Single tap: next emotion
 - Double tap: random emotion
